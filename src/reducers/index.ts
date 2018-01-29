@@ -12,7 +12,7 @@ const todos = (state: types.ITodo[] = [], action: actions.IAction): types.ITodo[
     }
 };
 
-const todoApp = (state: types.IAppState = initialState, action: actions.IAction): types.IAppState => {
+export const todoApp = (state: types.IAppState = initialState, action: actions.IAction): types.IAppState => {
     return {
         filter: "SHOW_ALL",
         todos: todos(state.todos, action),

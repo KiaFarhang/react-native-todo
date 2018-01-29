@@ -1,4 +1,4 @@
-import * as react from "react";
+import * as React from "react";
 import { TextInput } from "react-native";
 import { IInput as Props } from "../../types";
 
